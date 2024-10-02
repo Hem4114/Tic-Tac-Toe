@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #2dff08;
+    text-align: center;
+    font-size: 50px;
+}
+#outbox{
+    background-color: #2dff08;
+    height: 481px;
+    width: 481px;
+    margin: auto;
+    border-radius: 30px;
+}
+.box{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 5px;
+    border-radius: 30px;
+    transition: .5s;
+    font-size: 133px;
+    color: #2dff08;
+    text-align: center;
+}
+.box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
